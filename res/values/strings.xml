@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">signMeUp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="pw">Password</string>
+    <string name="freshman">Freshman</string>
+    <string name="Sophmore">Sophmore</string>
+    <string name="Junior">Junior</string>
+    <string name="Senior">Senior</string>
+    <string name="Graduate">Graduate</string>
+    <string name="SignMeUp">Sign Me Up</string>
+    <string name="orgname">Organization name</string>
+
+</resources>
