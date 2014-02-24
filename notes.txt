@@ -1,0 +1,16 @@
+ADMIN PANEL:
+	View list of all who signed up
+	Set certain settings (require all fields? Where to upload? etc)
+	logout
+	go to front end(user view)
+	set up mailing list
+	
+	
+	
+TODO:
+
+1) handle error checking ( correct email format? null fields etc).
+
+2) make sure email isn't already in DB.
+
+3) handle login verification / session id-tokens or something
