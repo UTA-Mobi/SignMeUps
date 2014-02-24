@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.signmeup"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    tools:ignore="HardcodedText" >
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/signUpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SignMeUp"
+        android:textSize="40dp" />
+    
+    <EditText
+        android:id="@+id/OrgName"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="9"
+        android:gravity="center"
+        android:hint="Organization Name"
+        android:inputType="text" />
+    
+    <EditText
+        android:id="@+id/OrgEmail"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="9"
+        android:gravity="center"
+        android:hint="login Email"
+        android:inputType="textEmailAddress" />
+    
+    <EditText
+        android:id="@+id/OrgPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="9"
+        android:gravity="center"
+        android:hint="login Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up!" />
+    <Button
+        android:id="@+id/cancel"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="Cancel"/>
+
+</LinearLayout>

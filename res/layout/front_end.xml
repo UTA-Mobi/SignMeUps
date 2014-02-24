@@ -32,9 +32,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:ems="10"
-        android:hint="Email@yahoo.com"
         android:gravity="center"
-        android:inputType="text" />
+        android:hint="Email@yahoo.com"
+        android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/editText3"
@@ -84,6 +84,13 @@
             android:text="@string/Graduate" />
 
     </RadioGroup>
+
+    <CheckBox
+        android:layout_gravity="center"
+        android:id="@+id/mailList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up for the mailing list" />
 
     <RelativeLayout
         android:layout_width="match_parent"
